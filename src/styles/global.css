@@ -19,19 +19,18 @@
 
   --ff-base: "Oxygen", sans-serif;
 
-  --title-md: 1.5rem/1.4 700 var(--ff-base);
-  --title-sm: 1.125rem/1.4 700 var(--ff-base);
+  --title-md: 700 1.5rem/1.4 var(--ff-base);
+  --title-sm: 700 1.125rem/1.4 var(--ff-base);
 
-  --subtitle-md: 0.875rem/1.4 700 var(--ff-base);
-  --subtitle-sm: 0.75rem/1.4 700 var(--ff-base);
+  --subtitle-md: 700 0.875rem/1.4 var(--ff-base);
+  --subtitle-sm: 700 0.75rem/1.4 var(--ff-base);
 
-  --text-md: 1rem/1.4 400 var(--ff-base);
-  --text-sm: 0.875rem/1.4 400 var(--ff-base);
-  --text-xs: 0.75rem/1.4 400 var(--ff-base);
+  --text-md: 400 1rem/1.4 var(--ff-base);
+  --text-sm: 400 0.875rem/1.4 var(--ff-base);
+  --text-xs: 400 0.75rem/1.4 var(--ff-base);
 }
 
 body {
   background-color: var(--base-gray-200);
-  font: var(--text-sm);
-  color: var(--base-gray-500);
+  font: var(--text-md);
 }
