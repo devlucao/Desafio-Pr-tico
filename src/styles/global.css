@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-pink: #D658B3;
+  --main-green: #45B442;
+
+  --base-gray-700: #332B31;
+  --base-gray-600: #4A4448;
+  --base-gray-500: #756C71;
+  --base-gray-400: #D3CFD2;
+  --base-gray-300: #DFDCDF;
+  --base-gray-200: #E9E7E9;
+  --base-gray-100: #F4F1F2;
+  --base-white: #FFF;
+
+  --ff-base: "Oxygen", sans-serif;
+
+  --title-md: 1.5rem/1.4 700 var(--ff-base);
+  --title-sm: 1.125rem/1.4 700 var(--ff-base);
+
+  --subtitle-md: 0.875rem/1.4 700 var(--ff-base);
+  --subtitle-sm: 0.75rem/1.4 700 var(--ff-base);
+
+  --text-md: 1rem/1.4 400 var(--ff-base);
+  --text-sm: 0.875rem/1.4 400 var(--ff-base);
+  --text-xs: 0.75rem/1.4 400 var(--ff-base);
+}
+
+body {
+  background-color: var(--base-gray-200);
+  font: var(--text-sm);
+  color: var(--base-gray-500);
+}
