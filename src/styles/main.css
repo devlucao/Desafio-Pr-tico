@@ -8,6 +8,6 @@ main {
 
   & small {
     font: var(--text-xs);
-    color: var(--base-gray-500);
+    color: var(--base-gray-500); 
   }
 }
