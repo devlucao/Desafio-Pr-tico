@@ -4,6 +4,10 @@ aside {
   gap: 1rem;
   color: var(--base-gray-500);
 
+  h3 {
+    text-transform: uppercase;
+  }
+
   & .profile {
     display: flex;
     align-items: center;
