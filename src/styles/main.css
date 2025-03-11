@@ -2,6 +2,8 @@ main {
   display: flex;
   align-items: start;
   justify-content: space-around;
+  max-width: 57rem;
+  gap: 1.5rem;
 
   margin-top: 4rem;
   margin-inline: auto;

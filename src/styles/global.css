@@ -1,6 +1,6 @@
 * {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 
@@ -33,4 +33,6 @@
 body {
   background-color: var(--base-gray-200);
   font: var(--text-md);
+
+  margin-block: 4rem;
 }
