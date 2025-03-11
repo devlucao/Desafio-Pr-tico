@@ -4,10 +4,6 @@ aside {
   gap: 1rem;
   color: var(--base-gray-500);
 
-  h3 {
-    text-transform: uppercase;
-  }
-
   & .profile {
     display: flex;
     align-items: center;
@@ -62,8 +58,9 @@ aside {
 
   & li {
     display: flex;
-    justify-content: space-between;
+
     align-items: center;
+    gap: 10rem;
     margin-bottom: 0.75rem;
 
     height: 2.5rem;
@@ -75,10 +72,11 @@ aside {
       width: 2rem;
       height: 2rem;
 
-      position: relative;
-
       display: flex;
       align-items: center;
+      justify-content: center;
+
+      position: relative;
 
       &::before {
         content: "";
@@ -95,11 +93,9 @@ aside {
       width: 1.5rem;
       height: 1.5rem;
 
-      margin: 0 auto;
-    }
-
-    & svg path {
-      fill: var(--main-green);
+      & path {
+        fill: var(--main-green);
+      }
     }
   }
 
@@ -117,8 +113,18 @@ aside {
     & .text-wrap {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      margin-bottom: 1rem;
+      gap: 10rem;
+
+      h3 {
+        text-transform: uppercase;
+        font: var(--subtitle-sm);
+      }  
     }
   }
 
+  & .history-list {
+    border-top: 1px solid var(--base-gray-100);
+    margin-bottom: 1rem;
+  }
 }
