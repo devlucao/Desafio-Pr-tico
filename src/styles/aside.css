@@ -52,49 +52,55 @@ aside {
     }
   }
 
-  & ul {
-    margin-top: 1rem;
-  }
-
-  & li {
-    display: flex;
-
-    align-items: center;
-    gap: 10rem;
-    margin-bottom: 0.75rem;
-
-    height: 2.5rem;
-    width: 16.75rem;
-
-    color: var(--base-gray-600);
-
-    & .list-check {
-      width: 2rem;
-      height: 2rem;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      position: relative;
-
-      &::before {
-        content: "";
-        width: 2rem;
-        height: 2rem;
-        border-radius: 50%;
-        background-color: hsla(118, 46%, 48%, 0.123);
-
-        position: absolute;
-      }
+  & .history-list {
+    border-top: 1px solid var(--base-gray-100);
+    margin-bottom: 1rem;
+    
+    & ul {
+      margin-top: 1rem;
     }
 
-    & svg {
-      width: 1.5rem;
-      height: 1.5rem;
+    & li {
+      display: flex;
+      list-style-type: none;
 
-      & path {
-        fill: var(--main-green);
+      align-items: center;
+
+      margin-bottom: 0.75rem;
+
+      height: 2.5rem;
+      width: 16.75rem;
+
+      color: var(--base-gray-600);
+
+      & .list-check {
+        width: 2rem;
+        height: 2rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+
+        &::before {
+          content: "";
+          width: 2rem;
+          height: 2rem;
+          border-radius: 50%;
+          background-color: hsla(118, 46%, 48%, 0.123);
+
+          position: absolute;
+        }
+      }
+
+      & svg {
+        width: 1.5rem;
+        height: 1.5rem;
+
+        & path {
+          fill: var(--main-green);
+        }
       }
     }
   }
@@ -119,12 +125,7 @@ aside {
       h3 {
         text-transform: uppercase;
         font: var(--subtitle-sm);
-      }  
+      }
     }
-  }
-
-  & .history-list {
-    border-top: 1px solid var(--base-gray-100);
-    margin-bottom: 1rem;
   }
 }
